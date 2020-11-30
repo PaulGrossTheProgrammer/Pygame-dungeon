@@ -1,0 +1,36 @@
+KEY START
+# name:wall
+P name:player
+G name:gem
+M name:monster
+z name:monster,type:zombie
+1 name:teleporter,id:1,direction:source
+2 name:teleporter,id:1,direction:target
+3 name:teleporter,id:2,direction:source
+4 name:teleporter,id:2,direction:target
+KEY END
+
+MAP START
+################################## ##############
+#P     z                         # #            #
+#                 GM             # # 2      G   #
+#  ###########            MG     # #      G   G #
+#            #                   # #        G   #
+#    1       #                   # #      G   G #
+#            #                   # #            #
+#            #        #####    M # #            #
+#            #            #      # #            #
+#            #            #      # ##########   #
+#            # G M        #      # #            #
+#            ####                # #  z         #
+# G          ####                # #            #
+#               #     G          # #            #
+#               #                # # z          #
+#  GM####   M   #                # #            #
+#    ####       #                # #    z       #
+#    ####       # MG        MG   # #            #
+#    ####       ####             # # z          #
+#           4                    # # 3          #
+#      G                        G# #            #
+################################## ##############
+MAP END
